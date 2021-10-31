@@ -1,0 +1,89 @@
+html{
+  background: url(/public/leone-venter-VieM9BdZKFo-unsplash.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+section {
+    margin-top: 70px;
+}
+.rounded_corner {
+    border-radius: 25px;
+  background: url(/public/PhotoProfile.png);
+  background-size: 240px;
+  background-position: center;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+.specify_each_corner {
+  border-radius: 50px 0px;
+  background: linear-gradient(lightblue, rgb(202, 113, 224)); /* Gradient */
+  background-size: 240px;
+  background-position: center;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 200px;
+  height: 150px; 
+}
+.shadow{
+  text-shadow: 3px 3px 4px, 0 0 30px blue;
+}
+
+.lingkaran{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: lightblue;
+  transition: 0.5s;
+}
+.lingkaran:hover{
+  transform: scale(1.3);
+}
+.segitiga{
+  height:0px;
+	width:0px;
+	border-bottom:solid 90px lightblue;
+	border-left:solid 50px transparent;
+	border-right:solid 50px transparent;
+  transition: 0.5s;
+}
+.segitiga:hover{
+  transform: rotate(180deg);
+}
+.kotak1{
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  transition: 0.5s;
+}
+.kotak1:hover{
+  transform: skew(-30deg);
+}
+.segitiga2{
+  height:0px;
+	width:0px;
+	border-top:solid 90px lightblue;
+	border-left:solid 50px transparent;
+	border-right:solid 50px transparent;
+  transition: 0.5s;
+}
+.segitiga2:hover{
+  transform: translate(50px);
+}
+.kotak3{
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  animation: animasikotak 2s ease infinite;
+}
+
+@keyframes animasikotak {
+  0%{
+    width: 100px;
+    transform: rotate(180deg);
+  }
+  100%{
+    margin-left: 900px;
+    background-color: salmon;
+  }
+}

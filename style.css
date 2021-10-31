@@ -1,5 +1,5 @@
 html{
-  background: url(/public/leone-venter-VieM9BdZKFo-unsplash.jpg) no-repeat center fixed;
+  background: url(leone-venter-VieM9BdZKFo-unsplash.jpg) no-repeat center fixed;
   background-size: cover;
 }
 section {
@@ -7,7 +7,7 @@ section {
 }
 .rounded_corner {
     border-radius: 25px;
-  background: url(/public/PhotoProfile.png);
+  background: url(PhotoProfile.png);
   background-size: 240px;
   background-position: center;
   background-repeat: repeat;
